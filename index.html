@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Lobster&display=swap");
+
+      body {
+        background-color: Wheat;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 65px;
+        font-family: "Lobster", cursive;
+        color: Maroon;
+      }
+
+      .p2 {
+        text-align: center;
+        font-size: 30px;
+        font-family: "Arima Madurai", cursive;
+      }
+
+      p,
+      .nav-item {
+        font-family: "Arima Madurai", cursive;
+      }
+
+      h5 {
+        font-size: 35px;
+        font-family: "Lobster", cursive;
+        color: Maroon;
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+      }
+
+      .container-fluid {
+        background-color: RosyBrown;
+      }
+    </style>
+
+    <title>Praktikum 8</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <h1>Welcome to Bistro Feendrache!</h1>
+      <img src="welcome.jpg" class="center" />
+      <p class="p2">
+        I'm Chef Vane! Now then, what sort of morsels are you in the mood for
+        today? For appetizers I've prepared soup, followed by entrees of fish
+        and meat. After the meal come dulcet desserts and hot drinks. How does
+        the full course sound? Please sit wherever you'd like, and place your
+        order. After that, you need only wait! Wahahaha, feast to your heart's
+        content!
+      </p>
+    </div>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" onclick="filterSelection('null')" href="#"
+            >All Menu</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="filterSelection('Appetizers')" href="#"
+            >Appetizers</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="filterSelection('Main')" href="#"
+            >Main</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="filterSelection('Drinks')" href="#"
+            >Drinks</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="filterSelection('Dessert')" href="#"
+            >Desserts</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <div class="row" id="card"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

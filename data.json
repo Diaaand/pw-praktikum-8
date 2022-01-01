@@ -1,0 +1,92 @@
+{
+  "posts": [
+    {
+      "course": "Main",
+      "title": "Grandma's Drachentrout Quiche",
+      "body": "Made using fresh drachentrout catched by our own chef, Vane. Please enjoy it.",
+      "est": "15 minutes",
+      "image": "quiche.png",
+      "price": 4500
+    },
+    {
+      "course": "Main",
+      "title": "Pate de Campagne",
+      "body": "Pate is, uhh, I'll go ask Percy - Vane.",
+      "est": "20 minutes",
+      "image": "pate.png",
+      "price": 5000
+    },
+    {
+      "course": "Appetizers",
+      "title": "White Dragon Pennyfowl Vegetable Soup",
+      "body": "A warm and light soup, just like the White Dragon Knight's Captain.",
+      "est": "15 minutes",
+      "image": "vegisoup.png",
+      "price": 3500
+    },
+    {
+      "course": "Appetizers",
+      "title": "Black Dragon Cream of Porcinido Soup",
+      "body": "A thick and sweet soup, just like the Black Dragon Knight's Captain.",
+      "est": "15 minutes",
+      "image": "creasoup.png",
+      "price": 3500
+    },
+    {
+      "course": "Main",
+      "title": "Demonbream Poele with Special Sauce",
+      "body": "Can you believe Siegfried just catched the fish with his own barehand? For the love of Bahamut. - Percival",
+      "est": "20 minutes",
+      "image": "poele.png",
+      "price": 6000
+    },
+    {
+      "course": "Main",
+      "title": "Chateaubrilliant Roast with Fritters",
+      "body": "Whoa! It's so good!! The fries are so crunchy and the meat is sweet! - Lancelot",
+      "est": "20 minutes",
+      "image": "roafri.png",
+      "price": 6500
+    },
+    {
+      "course": "Drinks",
+      "title": "Kopi Leol",
+      "body": "Made from beans that have been eaten by Leol. Don't worry we washed it first.",
+      "est": "10 minutes",
+      "image": "leol.png",
+      "price": 2500
+    },
+    {
+      "course": "Drinks",
+      "title": "Rugosa Floral Tea",
+      "body": "It's a tea. With a flower or two. Very calming.",
+      "est": "10 minutes",
+      "image": "floral.png",
+      "price": 2500
+    },
+    {
+      "course": "Dessert",
+      "title": "Elemental Sorbet",
+      "body": "Wind, water, fire or earth? A light-dark combo? Or maybe full rainbow grid? Choose your favorite here.",
+      "est": "10 minutes",
+      "image": "elesor.png",
+      "price": 2000
+    },
+    {
+      "course": "Dessert",
+      "title": "Rich and Creamy Flan : Rood",
+      "body": "I used those slugs and added some ingredients like milk and strawberries. Enjoy - Siegfried",
+      "est": "10 minutes",
+      "image": "flanrood.png",
+      "price": 3000
+    },
+    {
+      "course": "Dessert",
+      "title": "Rich and Creamy Flan : Blauw",
+      "body": "Still used the same ingredients, but instead of strawberries I added some blueberries. Hope you like it too - Siegfried",
+      "est": "10 minutes",
+      "image": "flanblauw.png",
+      "price": 3000
+    }
+  ]
+}
